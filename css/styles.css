@@ -7,7 +7,7 @@ body {
 	font-size: 1.3rem;
 	line-height: 1.2;
 	max-width: 60rem;
-	margin: 0 auto;
+	margin: 53px auto;
 	color: #333;
 }
 
@@ -34,6 +34,7 @@ img {
 .MoneyShotImg {
 	border: 6px solid #e8cfa9;
 	border-radius: 4px;
+	float:right
 }
 
 .LogoWrapper {
@@ -45,10 +46,11 @@ img {
 	position: absolute;
 	bottom: .5rem;
 	right: 1rem;
+	
 }
 
 .IntroText {
-	font-size: 1.8rem;
+	font-size: 0.5rem;
 	font-style: italic;
 }
 
@@ -60,7 +62,7 @@ img {
 	content: "✼";
 	display: block;
 	text-align: center;
-	margin: 1rem 0 .5rem 0;
+	margin: 10rem 0 -10.5rem 0;
 	color: #eee;
 }
 
@@ -87,22 +89,97 @@ img {
 
 	.IntroText {
 		padding: .5rem;
-		font-size: 2.5rem;
+		font-size: 1.5rem;
 		text-align: left;
 		position: relative;
 	}
 
-	.Ingredients {
+	.newone {
+		font-size: .9rem;
+		float: left;
+		padding: 1rem;
+		margin: 0 0 .5rem 1rem;
+		border-radius: 3px;
+		background-color: #5fc1e4;
+		border: 2px solid #e8cfa9;
+	}
+
+	.newone h1 {
+		margin: 0;
+	}
+	
+	.newtwo {
+		font-size: .9rem;
+		float: left;
+		padding: 1rem;
+		margin: 0 0 .5rem 1rem;
+		border-radius: 3px;
+		background-color: #5fc1e4;
+		border: 2px solid #e8cfa9;
+	}
+	
+	.newthree {
 		font-size: .9rem;
 		float: right;
 		padding: 1rem;
 		margin: 0 0 .5rem 1rem;
 		border-radius: 3px;
-		background-color: #ffffdf;
+		background-color: #5fc1e4;
 		border: 2px solid #e8cfa9;
 	}
 
-	.Ingredients h3 {
+	
+
+	
+	.newfour {
+		font-size: .9rem;
+		float: left;
+		padding: 1rem;
+		margin: 0 0 .5rem 1rem;
+		border-radius: 3px;
+		background-color: #5fc1e4;
+		border: 2px solid #e8cfa9;
+	}
+	
+	.newfive {
+		font-size: .9rem;
+		float: left;
+		padding: 1rem;
+		margin: 0 0 .5rem 1rem;
+		border-radius: 3px;
+		background-color: #5fc1e4;
+		border: 2px solid #e8cfa9;
+	}
+
+	.newfive h3 {
+		margin: 0;
+	}
+	
+	.newsix {
+		font-size: .9rem;
+		float: left;
+		padding: 1rem;
+		margin: 0 0 .5rem 1rem;
+		border-radius: 3px;
+		background-color: #5fc1e4;
+		border: 2px solid #e8cfa9;
+	}
+
+	.newsix h4 {
+		margin: 0;
+	}
+	
+	.newseven {
+		font-size: .9rem;
+		clear: left;
+		padding: 1rem;
+		margin: 0 750px .5rem 1rem;
+		border-radius: 3px;
+		background-color: #5fc1e4;
+		border: 2px solid #e8cfa9;
+	}
+
+	.newseven h5 {
 		margin: 0;
 	}
 }
