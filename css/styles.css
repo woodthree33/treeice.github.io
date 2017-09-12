@@ -4,7 +4,7 @@
 
 body {
 	padding: 1rem .5rem;
-	font-size: 1.3rem;
+	font-size: 0.3rem;
 	line-height: 1.2;
 	max-width: 60rem;
 	margin: 53px auto;
@@ -60,7 +60,7 @@ img {
 
 .MethodWrapper li:after {
 	content: "✼";
-	display: block;
+	display: inline;
 	text-align: center;
 	margin: 10rem 0 -10.5rem 0;
 	color: #eee;
@@ -111,7 +111,7 @@ img {
 	.newtwo {
 		font-size: .9rem;
 		float: left;
-		padding: 1rem;
+		padding: 4rem;
 		margin: 0 0 .5rem 1rem;
 		border-radius: 3px;
 		background-color: #5fc1e4;
@@ -122,7 +122,7 @@ img {
 		font-size: .9rem;
 		float: right;
 		padding: 1rem;
-		margin: 0 0 .5rem 1rem;
+		margin: 32px -358px .5rem -7rem;
 		border-radius: 3px;
 		background-color: #5fc1e4;
 		border: 2px solid #e8cfa9;
@@ -134,7 +134,7 @@ img {
 	.newfour {
 		font-size: .9rem;
 		float: left;
-		padding: 1rem;
+		padding: 4rem;
 		margin: 0 0 .5rem 1rem;
 		border-radius: 3px;
 		background-color: #5fc1e4;
@@ -143,9 +143,9 @@ img {
 	
 	.newfive {
 		font-size: .9rem;
-		float: left;
-		padding: 1rem;
-		margin: 0 0 .5rem 1rem;
+		float: right;
+		padding: 2rem;
+		margin: 0 0 .5rem 1rem;;
 		border-radius: 3px;
 		background-color: #5fc1e4;
 		border: 2px solid #e8cfa9;
@@ -157,7 +157,7 @@ img {
 	
 	.newsix {
 		font-size: .9rem;
-		float: left;
+		float: right;
 		padding: 1rem;
 		margin: 0 0 .5rem 1rem;
 		border-radius: 3px;
@@ -173,7 +173,7 @@ img {
 		font-size: .9rem;
 		clear: left;
 		padding: 1rem;
-		margin: 0 750px .5rem 1rem;
+		margin: 0 401px .5rem 1rem;
 		border-radius: 3px;
 		background-color: #5fc1e4;
 		border: 2px solid #e8cfa9;
