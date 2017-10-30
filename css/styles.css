@@ -1,185 +1,46 @@
-* {
-	box-sizing: border-box;
-}
-
 body {
-	padding: 1rem .5rem;
-	font-size: 0.3rem;
-	line-height: 1.2;
-	max-width: 60rem;
-	margin: 53px auto;
-	color: #333;
+  font-family: Arial;/*字体*/
+   color: #333;/*字体颜色*/
+  font-size: 0.7rem;/* 字体大小*/
+  line-height: 3;/*行高*/
+}
+/*以下设定section元素的属性*/
+section {
+  display: -webkit-flex;/*伸缩盒模型中的伸缩容器，没搞懂。*/
+  display: flex;
+  -webkit-flex-wrap: wrap;/*  控制伸缩容器可以创建多行,新增的伸缩行根据侧轴的方向添加*/
+  flex-wrap: wrap;
 }
 
-img {
-	max-width: 100%;
+/*以下设定label元素的属性*/
+label {
+  background:  #DCB5FF; /**/
+  border: 1px solid #ddd; 
+  padding: .7em 1em;
+  cursor: pointer;
+  z-index: 1;
+  margin-left: -1px;
 }
-
-.Header {
-	text-align: center;
-	border-bottom: 8px double #f9f9f9;
-	margin-bottom: 2rem;
-	padding-bottom: 1rem;
+label:first-of-type {
+  margin-left: 0;
 }
-
-.Strap {
-	font-size: 1rem;
+div {
+  width: 100%;/*元素的宽度*/
+  border: 1px solid #ddd;/**/
+  -webkit-order: 1;/**/
+  order: 1;/**/
 }
-
-
-.MoneyShot {
-	position: relative;
+input[type=radio], div {
+  display: none;
 }
-
-.MoneyShotImg {
-	border: 6px solid #e8cfa9;
-	border-radius: 4px;
-	float:right
+input[type=radio]:checked + label {
+  background:   #BE77FF;/* 点击选框后颜色变化*/
+  
 }
-
-.LogoWrapper {
-	display: block;
+input[type=radio]:checked + label + div {
+  display: block;
+  font-size: 0.7rem;
 }
-
-.ImageCaption {
-	font-size: .75rem;
-	position: absolute;
-	bottom: .5rem;
-	right: 1rem;
-	
-}
-
-.IntroText {
-	font-size: 0.5rem;
-	font-style: italic;
-}
-
-.MethodWrapper li {
-	padding: .4rem 0;
-}
-
-.MethodWrapper li:after {
-	content: "✼";
-	display: inline;
-	text-align: center;
-	margin: 10rem 0 -10.5rem 0;
-	color: #eee;
-}
-
-@media screen and (min-width: 50rem) {
-	body {
-		border-left: 4px solid #f9f9f9;
-		border-right: 4px solid #f9f9f9;
-		padding: 1rem 2rem;
-	}
-
-	.IntroWrapper {
-		display: table;
-		table-layout: fixed;
-		width: 100%;
-	}
-
-	.MoneyShot,
-	.IntroText {
-		display: table-cell;
-		width: 50%;
-		vertical-align: middle;
-		text-align: center;
-	}
-
-	.IntroText {
-		padding: .5rem;
-		font-size: 1.5rem;
-		text-align: left;
-		position: relative;
-	}
-
-	.newone {
-		font-size: .9rem;
-		float: left;
-		padding: 1rem;
-		margin: 0 0 .5rem 1rem;
-		border-radius: 3px;
-		background-color: #5fc1e4;
-		border: 2px solid #e8cfa9;
-	}
-
-	.newone h1 {
-		margin: 0;
-	}
-	
-	.newtwo {
-		font-size: .9rem;
-		float: left;
-		padding: 4rem;
-		margin: 0 0 .5rem 1rem;
-		border-radius: 3px;
-		background-color: #5fc1e4;
-		border: 2px solid #e8cfa9;
-	}
-	
-	.newthree {
-		font-size: .9rem;
-		float: right;
-		padding: 1rem;
-		margin: 32px -358px .5rem -7rem;
-		border-radius: 3px;
-		background-color: #5fc1e4;
-		border: 2px solid #e8cfa9;
-	}
-
-	
-
-	
-	.newfour {
-		font-size: .9rem;
-		float: left;
-		padding: 4rem;
-		margin: 0 0 .5rem 1rem;
-		border-radius: 3px;
-		background-color: #5fc1e4;
-		border: 2px solid #e8cfa9;
-	}
-	
-	.newfive {
-		font-size: .9rem;
-		float: right;
-		padding: 2rem;
-		margin: 0 0 .5rem 1rem;;
-		border-radius: 3px;
-		background-color: #5fc1e4;
-		border: 2px solid #e8cfa9;
-	}
-
-	.newfive h3 {
-		margin: 0;
-	}
-	
-	.newsix {
-		font-size: .9rem;
-		float: right;
-		padding: 1rem;
-		margin: 0 0 .5rem 1rem;
-		border-radius: 3px;
-		background-color: #5fc1e4;
-		border: 2px solid #e8cfa9;
-	}
-
-	.newsix h4 {
-		margin: 0;
-	}
-	
-	.newseven {
-		font-size: .9rem;
-		clear: left;
-		padding: 1rem;
-		margin: 0 401px .5rem 1rem;
-		border-radius: 3px;
-		background-color: #5fc1e4;
-		border: 2px solid #e8cfa9;
-	}
-
-	.newseven h5 {
-		margin: 0;
-	}
+.tab-three-p{
+  font-size: 1em
 }
