@@ -1,57 +1,45 @@
-# Site settings
-title: Hanuman
-description: Hanuman is a minimal yet powerful Jekyll theme for your blogs and websites.
-cover: assets/images/radhakrishna.jpg
-logo: assets/images/logo.png
-favicon: assets/images/favicon.png
-baseurl: "/hanuman/" # the subpath of your site, e.g. /blog/ or / for root
-url: "https://samanyougarg.com" # the base hostname & protocol for your site
-paginate:	5 # The number of posts to show per page on your homepage
 
-# Social
-facebook: facebook
-twitter: twitter
-github:  github
-about: about
+title: Karna
+desctiption: Karna is a responsive jekyll theme which includes pinterest like pins.
+url: http://webjeda.com/
+permalink: ':title/'
 
-#Additional Pages
-contact: contact
-privacy-policy: privacy-policy
-
-
-permalink: /:title
-
-
-# Google Analytics
-analytics_id: ""
-
-# Build settings
 markdown: kramdown
+baseurl: "/karna"
+full-version: "http://webjeda.com/karna-full/"
 
-kramdown:
-  parse_block_html: true
+sass:
+    style: compressed
 
-plugins:
-  - jekyll-paginate
+  
+#optimization
+#compress.html
+compress_html:
+  clippings: [html,div, p, ul, td, h1, h2, h3, h4,link, meta, footer, nav, img, header, hr, br, head, style, li, ul, ol, time, main, script, title]
+  comments: ["<!-- ", " -->"]
+  endings: [all]
+  ignore:
+    envs: [local]
+  blanklines: false
+  profile: false
+  startings: []
+
+highlight: rouge
 
 
-# Settings for rake task
-safe: False
-lsi: False
-username: samanyougarg #github username
-repo: hanuman #github repository
-branch: master #branch
-relative_source: ../hanuman/ #source directory
-destination: ../hanuman-pages/ #destination directory
-production_url:  https://shriradhakrishna.com/
-source_url:  https://github.com/samanyougarg/hanuman #source repository url
+# Tracker
+analytics: UA-83979019-1
 
-exclude:
-  - README.md
-  - Rakefile
-  - Gemfile
-  - Gemfile.lock
-  - changelog.md
-  - "*.Rmd"
-  - vendor
-  - .travis.yml
+# Comments
+disqus-shortname: webjeda-demo
+
+# Contact form
+# Go to https://getsimpleform.com and get a API token by signing up with your email and enter that here
+api-token:   
+
+include: [_pages]
+version: 0.8
+
+plugins: 
+    - jekyll-paginate
+    - jekyll-seo-tag
