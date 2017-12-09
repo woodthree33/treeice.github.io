@@ -1,0 +1,21 @@
+# Site navigation links
+
+- title: Teaching 教學
+  url: /teaching/
+  excerpt: "含体验式教学及混合式教学"
+  image: 300x200.gif
+
+- title: i18nl10n 國際化及本地化
+  url: /i18nl10n/
+  excerpt: "含＂一带一路＂倡议"
+  image: 300x200.gif
+
+- title: SDG 永續發展
+  url: /SDG/
+  excerpt: "Sustainable Development Goals，亦译可持续发展，含＂生态文明＂倡议"
+  image: 300x200.gif
+
+- title: Contact 聯絡我
+  url: /contact/
+  excerpt: "联络我"
+  image: 300x200.gif  

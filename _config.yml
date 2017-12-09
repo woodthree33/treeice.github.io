@@ -1,48 +1,64 @@
-# Permalinks
-permalink:           pretty
+# Site wide configuration
 
-# Setup
-title:               Poole
-tagline:             The Jekyll Butler
-url:                 http://getpoole.com
-paginate:            1
-baseurl:             ""
+title: "開展個人學習網絡"
+description: "在更遼闊的（全球資訊網）世界感覺更自在地體驗及學習"
+logo: # 120x120 px default image used for Twitter summary card
+teaser: # 400x250 px default teaser image used in image archive grid
+locale: zh_TW # 本地化翻譯
+url:
+feed:
+  path: atom.xml
 
-# Assets
-#
-# We specify the directory for Jekyll so we can use @imports.
+# Jekyll configuration
+
 sass:
-  sass_dir:          _sass
-  style:            :compressed
-
-# About/contact
-author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
-
-# Custom vars
-version:             2.0.0
-github:
-  repo:              https://github.com/poole/poole
-
-# Gems
-gems:
-  - jekyll-paginate
-github: [metadata]
+  sass_dir: _sass
+  style: compressed
+permalink: /:categories/:title/
 kramdown:
-  input: GFM
-  hard_wrap: false
+  toc_levels: 1..2
+highlighter: rouge
 gems:
-  - jekyll-coffeescript
+  - jekyll-sitemap
   - jekyll-gist
-  - jekyll-mentions
-  - jekyll-paginate
-  - jekyll-redirect-from
-whitelist:
-  - jekyll-coffeescript
-  - jekyll-gist
-  - jekyll-mentions
-  - jekyll-paginate
-  - jekyll-redirect-from
+  - jekyll-feed
 
+
+# Site owner
+owner:
+  name: hanteng
+  email: hantengliao@qq.com
+  twitter: hanteng
+  google:
+    ad-client:
+    ad-slot:
+  bio: "廖汉腾，副教授（网络与新媒体专业） 中山大学南方学院 新媒体研究中心代理主任 ，开设课程：《网络新媒体技术与协作》、《信息可视化设计》、《大数据统计》、《Python语言》、《网页设计与制作》、《网站运营与管理实践》等。"
+  avatar: bio-photo.jpg # 160x160 px image for author byline
+  disqus-shortname:
+
+
+include:
+  - .htaccess
+exclude:
+  - "*.less"
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - CHANGELOG
+  - Capfile
+  - Gemfile
+  - Gruntfile.js
+  - LICENSE
+  - README
+  - Rakefile
+  - config
+  - gulpfile.js
+  - lib
+  - log
+  - node_modules
+  - package.json
+  - spec
+  - tmp
