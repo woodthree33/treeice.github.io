@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title:  "Jekyll 读取不了中文文档!"
 date:   2017-12-07 23:45:15 +0800
 categories: jekyll update
@@ -27,6 +27,4 @@ categories: jekyll update
     2.+ base.force_encoding("UTF-8") #加入編碼
     3.break unless File.directory?(File.expand_path(res.filename + base))
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+

@@ -12,7 +12,7 @@ locale                   : "en"
 title                    : "Site Title"
 title_separator          : "-"
 name                     : "Your Name"
-description              : "An amazing website."
+description              : "林树斌在种一片森林"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -40,7 +40,7 @@ staticman:
   path                   : # "/_data/comments/{options.slug}" (default)
   requiredFields         : # ['name', 'email', 'message']
   transforms:
-    email                : # "md5"
+    email                : "woodthree33.gmail.com"
   generatedFields:
     date:
       type               : # "date"
@@ -250,3 +250,4 @@ defaults:
       comments: # true
       share: true
       related: true
+port: 5001
