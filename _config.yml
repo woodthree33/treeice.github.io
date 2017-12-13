@@ -9,10 +9,10 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en"
-title                    : "Site Title"
-title_separator          : "-"
-name                     : "Your Name"
-description              : "林树斌在种一片森林"
+title                    : "钢铁森林"
+title_separator          : "🎋"
+name                     : "林树斌"
+description              : "林树斌在种一片🎄森林"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -82,19 +82,19 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "林树斌"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            :
-  uri              :
+  bio              : "2016 中山大学南方学院 网络与新媒体 二年级学生"
+  location         : "广东-汕头"
+  email            : "woodthree33.gmail.com"
+  uri              : "中山大学南方学院"
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
   facebook         :
   foursquare       :
-  github           :
+  github           : "treeice"
   gitlab           :
   google_plus      :
   keybase          :
@@ -108,7 +108,7 @@ author:
   tumblr           :
   twitter          :
   vine             :
-  weibo            :
+  weibo            : "L1n木三"
   xing             :
   youtube          : # "https://youtube.com/c/MichaelRoseDesign"
 
