@@ -3,8 +3,6 @@ layout: default
 title:  "11月16-网页设计课堂笔记"
 date:   2017-12-07 23:45:15 +0800
 categories: jekyll update
-image:
-    feature: image/pokeman.jpg	
 ---
 #  7.1
 ### 用户可能出现在任何页面
