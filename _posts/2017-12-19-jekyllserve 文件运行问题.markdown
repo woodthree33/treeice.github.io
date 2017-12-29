@@ -2,7 +2,7 @@
 layout: default
 title:  "jekyll-cannot load such file -- bundle/bundler/setup (LoadError)"
 date:   2017-12-07 23:45:15 +0800
-categories: jekyll update
+categories: post jekyll 
 ---
 # power shell运行jekyll serve出现问题后解决：
 ### 问题代码：

@@ -13,10 +13,10 @@ title                    : "钢铁森林"
 title_separator          : "🎋"
 name                     : "林树斌"
 description              : "林树斌在种一片🎄森林"
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://treeice.github.com"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+repository               : "www.github.com/treeice/treeice.github.io"
+teaser                   : "image/personalphoto.jpg"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -29,7 +29,7 @@ comments:
     # https://developers.facebook.com/docs/plugins/comments
     appid                :
     num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
+    colorscheme          : "dark"
 staticman:
   allowedFields          : # ['name', 'email', 'url', 'message']
   branch                 : # "master"
@@ -83,7 +83,7 @@ analytics:
 # Site Author
 author:
   name             : "林树斌"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "image/personalphoto.jpg"
   bio              : "2016 中山大学南方学院 网络与新媒体 二年级学生"
   location         : "广东-汕头"
   email            : "woodthree33.gmail.com"

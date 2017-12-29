@@ -2,7 +2,7 @@
 layout: default
 title:  "Jekyll-error:permission denied -bind(2) for 127.0.0.1:4000"
 date:   2017-12-07 23:45:15 +0800
-categories: jekyll update
+categories: post jekyll
 ---
 # power shell运行jekyll serve出现问题后解决：
 ### 问题代码：
@@ -24,6 +24,4 @@ categories: jekyll update
   
  - 第一步：打开_config.yml 在最后加上一行 port: 5001 (把默认的4000替换为5001，或者其他数字)
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+
