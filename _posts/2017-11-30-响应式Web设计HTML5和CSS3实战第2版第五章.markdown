@@ -1,0 +1,111 @@
+---
+layout: default
+title:  "响应式Web设计HTML5和CSS3实战第2版第五章（未完）"
+date:   2017-12-07 23:45:15 +0800
+categories: jekyll update
+---
+# css3新特新
+## 一.多列布局
+ -moz代表火狐的内核，-ms代表IE内核，-webkit代表webkit内核，常见是的是谷歌和苹果浏览器
+### 1.多栏
+###### 1.	column-width  列宽大小
+###### 2.	column-count  列宽数量
+###### 3.   column-gap		并列间的间隔
+###### 4.   column-rule		列之间的宽度、样式和颜色规则
+>  column-rule-color	**列之间的颜色规则**
+
+ column-rule-width|列之间的分割线粗细
+-|-:
+thin|细
+thick|宽
+medium|中等
+length|自定义
+
+ 
+column-rule-style |列之间的样式规则
+-|-: 
+none| 没有规则
+hidde|隐藏
+dotted|点状
+dashed|虚线
+double|双线
+groove，ridge，inset，outset|3D规则	该效果取决于宽度和颜色值
+
+---
+### 2.断字 
+ 
+word-wrap|断字
+-|-: 
+normal|只在允许的断字点换行（浏览器保持默认处理）
+break-word|在长单词或 URL 地址内部进行换行。
+
+---
+### 3.截短文本
+
+overflow|规定段落中的文本不进行换行
+-|-: 
+normal|默认。空白会被浏览器忽略
+pre	|空白会被浏览器保留。其行为方式类似HTML中的\<pre>标签
+nowrap|文本不会换行，文本会在在同一行上继续，直到遇到 <br> 标签为止
+pre-wrap|保留空白符序列，但是正常地进行换行
+pre-line|合并空白符序列，但是保留换行符
+inherit|规定应该从父元素继承 white-space 属性的值
+
+
+
+text-overflow |规定当文本溢出包含元素时
+-|-: 
+clip|修剪文本
+ellipsis|显示省略符号来代表被修剪的文本
+string|使用给定的字符串来代表被修剪的文本
+
+white-space|参数
+-|-
+no-wrap|空白不折行
+
+### 4.创建水平滚动面板	
+1. 容器比内容小
+
+- overflow-x   
+- overflow-y
+
+参数|-
+-|-:  
+visible	|不裁剪内容，可能会显示在内容框之外
+idden|裁剪内容 - 不提供滚动机制。
+scroll|裁剪内容 - 提供滚动机制
+no-display|如果内容不适合内容框，则删除整个框
+no-content|如果内容不适合内容框，则隐藏整个内容
+
+### 5.伪元素 伪类
+ >  IE8只支持单冒号的格式，安全起见如果你想要更广泛的浏览器兼容性那么还是使用单冒号的格式吧
+ 
+#### 伪元素	pseudo-element	 
+ - :hover   
+ - :link    
+ - :active	
+ - :target 
+ - :not(s)  
+ - :focus
+
+#### 伪类    pseudo-class
+ + :first-letter   
+ + :first-line
+ + :before  		
+ + :after       
+ + ::selection
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
