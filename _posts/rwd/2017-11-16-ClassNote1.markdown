@@ -4,12 +4,10 @@ title:  "11月16-网页设计课堂笔记"
 date:   2017-12-07 23:45:15 +0800
 categories: posts rwd
 image:
-  teaser:    grass_sky.png
-  feature:   grass_sky.png
+  teaser:    image/grass_sky.png
+  feature:   image/grass_sky.png
 ---
-<<<<<<< HEAD
 
----
 =======
 >>>>>>> 928019fea63051409dbd54854a6613e7c72fbfdd
 #  7.1
