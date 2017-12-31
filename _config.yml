@@ -16,7 +16,7 @@ description              : "林树斌在种一片🎄森林"
 url                      : "https://treeice.github.com"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "www.github.com/treeice/treeice.github.io"
-teaser                   : "image/personalphoto.jpg"
+teaser                   : "images/personalphoto.jpg"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -83,7 +83,7 @@ analytics:
 # Site Author
 author:
   name             : "林树斌"
-  avatar           : "image/personalphoto.jpg"
+  avatar           : "images/personalphoto.jpg"
   bio              : "2016 中山大学南方学院 网络与新媒体 二年级学生"
   location         : "广东-汕头"
   email            : "woodthree33.gmail.com"
