@@ -13,7 +13,7 @@ title                    : "钢铁森林"
 title_separator          : "🎋"
 name                     : "林树斌"
 description              : "林树斌在种一片🎄森林"
-url                      : "https://www.github.com/treeice/treeice.github.io"
+url                      : 
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "www.github.com/treeice/treeice.github.io"
 teaser                   : "/image/personalphoto.jpg"
