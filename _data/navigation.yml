@@ -1,17 +1,17 @@
 # main links
 main:
- - title: "波兰弯曲森林"
-   excerpt: "大部分树木才开始都是平行于地面的生长，到一定时间才90度拐弯向上。并且树木弯曲的方向都是向着北方"
-   url: /SDG/ 
+ - title: "文章"
+   excerpt: "个人博客"
+   url: /posts/ 
   
- - title: "新西兰怀波瓦森林"
-   excerpt: "古老的贝壳杉之王"
-   url: /SDG/
+ - title: "可视化作品集"
+   excerpt: "林树斌的信息可视化作品集"
+   url: /infovis/
     
- - title: "作品集"
-   excerpt: "林树斌的作品集"
+ - title: "网页设计作品集"
+   excerpt: "林树斌的网页设计的作品集"
    url: /portfolio/
     
- - title: "德国黑森林"
-   excerpt: "黑森林的特产——咕咕钟和黑森林蛋糕 "
-   url: /SDG/
+ - title: "联系我"
+   excerpt: "有问题请找我"
+   url: /about/
