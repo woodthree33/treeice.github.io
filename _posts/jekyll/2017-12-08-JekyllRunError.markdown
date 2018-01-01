@@ -3,6 +3,7 @@ layout: default
 title:  "Jekyll-error:permission denied -bind(2) for 127.0.0.1:4000"
 author: treeice
 categories: posts jekyll
+Tags: jekyll 
 ---
 # power shell运行jekyll serve出现问题后解决：
 ### 问题代码：

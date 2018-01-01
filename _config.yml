@@ -8,16 +8,16 @@
 minimal_mistakes_skin    : "air" # "default", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en"
+locale                   : "zh"
 title                    : "🛤树斌的个人网页"
 title_separator          : "🎋"
 name                     : "林树斌"
 description              : "林树斌在种一片🎄森林"
 url                      : "https://treeice.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "www.github.com/treeice/treeice.github.io"
-teaser                   : "/image/personalphoto.jpg"
-# breadcrumbs            : false # true, false (default)
+repository               : "treeice/treeice.github.io"
+teaser                   : "/assets/images/spring-goat.jpg"
+breadcrumbs              : true 
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
@@ -89,7 +89,7 @@ author:
   email            : "woodthree33.gmail.com"
   uri              : "中山大学南方学院"
   bitbucket        :
-  codepen          :
+  codepen          : "treeice"
   dribbble         :
   flickr           :
   facebook         :
@@ -247,7 +247,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments:  true
       share: true
       related: true
 port: 5001

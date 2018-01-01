@@ -3,6 +3,7 @@ layout: default
 title:  "jekyll-cannot load such file -- bundle/bundler/setup (LoadError)"
 categories: posts jekyll 
 author: treeice
+Tags: jekyll 
 ---
 # power shell运行jekyll serve出现问题后解决：
 

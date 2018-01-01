@@ -1,0 +1,135 @@
+---
+layout: archive
+title:  "11月16的课堂笔记"
+categories: posts rwd
+author: treeice
+Tags: jekyll 
+---
+
+#  7.1
+
+### 用户可能出现在任何页面
+
+ - 直接访问accessibility   （ 可访问性 无障碍 亲和力 ）
+ - 简洁性simplicity 
+ - 一致性consistency
+
+# 7.3 
+ -  完整性  integrity  
+ -  稳定性  stability
+ -  带宽    bandwidth   （10秒 网站日志-典型用户） 
+ -  交互    interaction
+---
+
+# 二.交互
+
+#### 1.界面-->程序
+
+```
+graph LR 
+A[用户] -->|触发,执行指令|B(网站)
+B(网站) -->|发出指令|C(网站服务器)
+
+```
+---
+### 2.特点
+
+ - 克制 （简洁） 
+ - 产品   
+ - 对象
+
+#### 二八法则 
+
+ > - 20%网站占用 用户80%的时间 
+
+---
+### 3.模式提高可用性
+
+- 尊重约定俗成的思维定势和默契 
+ > - "头像图标"代表个人信息   
+ > - "手推车"代表购物车
+
+---
+
+### 4.**最忌**: 形式凌驾功能
+
+---
+# 三.组件 （web 2.0）
+
+ > 1.按键 button
+ > - 1).吸引用户点击，触发事件
+ > - 2).文字 短语 矩形 形象
+ 
+ > 2.菜单  menu
+ > - 1).展示意义（分类信）
+ > - 2).功能意义（触发事件）
+ > > - a.下拉菜单栏 
+ > > > - 1>.“鼠标悬停 hover”触发菜单栏
+ > > > - 2>.“单击”触发新页面     
+ > > - b.选项卡 tab
+				       
+ > 3.输入框
+ > - 1).单复选框
+ > - 2).单选框 
+ > > - a.“相反功能-切换”
+ 
+ > 4.按键 button
+ > - 1).吸引用户点击，触发事件
+ > - 2).文字 短语 矩形 形象
+
+---
+
+# 四.引导交互
+
+> - 1.友好 流畅 清晰
+> - 2.图形（ 配合文字 标签）
+> - 3.帮助和说明（顶部，底部）
+> > - a.“？”图标（帮助）
+> - 4.反馈
+> > - a.所处状态{eg：提交成功...加载中...）
+> > - b.原则：清晰，准确
+---
+#### 相关知识点
+
+- WAI-ARIA
+- jQuery UI
+---
+
+# 5.企业网站交互
+
+> 附着性体验：
+> - 一致性（企业文化风格） 
+> - 定位（用户定位） 
+> - 标签
+
+# 6.界面设计  interface design
+
+> 1.导航寻路  navigation wayfinding
+>> 1).核心内容
+>>- a.定向      otientation
+>>- b.路径选择  route decision
+>>- c.意向图    mental mapping
+>>- d.结局      closure
+
+> 2.地图五大元素
+>- 1).道路 paths	
+>- 2).边界 edges
+>- 3).区域 districts					
+>- 4).节点 nodes    （交叉路等)
+>- 5).地标 landmarks （视觉建筑物)
+
+> 3.设计导航 design navigation
+>- 1).突出热门目的地    	 	 menus hightlight popular destination
+> - 2).路径引路           	 	 paths lead the way
+>- 3).链接支持发现和探索    	 links support discovery and exploration
+>- 4).清晰的“味” 使选择更容易      a clear scent makes choices easier
+>- 5).边界和地标提供方向 		 boundaries and marks provide orientation		
+>- 6).一致性使导航更容易 		 consistency makes navigation easier
+>- 7).搜索需要导向找路   		 search needs wayfinding	
+>- 8).全局扫向找路的标题		 header search wayfinding title
+>- 9).本地导向找路的菜单		 menus for local wayfinding
+>- 10).导航和定向的面包屑痕迹	 breadcrumbs trails for navigation and orientation
+			
+
+
+
