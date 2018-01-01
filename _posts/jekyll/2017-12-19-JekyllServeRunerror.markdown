@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: single
 title:  "jekyll-cannot load such file -- bundle/bundler/setup (LoadError)"
 categories: posts jekyll 
 author: treeice
