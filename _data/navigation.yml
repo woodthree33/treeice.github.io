@@ -2,17 +2,17 @@
 main:
  - title: "文章"
    excerpt: "个人博客"
-   url: /posts/ 
+   url: /year-archive/ 
   
  - title: "可视化作品集"
-   excerpt: "林树斌的信息可视化作品集"
+   excerpt: "收集的信息可视化作品集"
    url: /infovis/
     
  - title: "网页设计作品集"
-   excerpt: "林树斌的网页设计的作品集"
+   excerpt: "网页设计的作品集"
    url: /portfolio/
     
- - title: "菜脯"
-   excerpt: "可以吃的我我"
-   url: /recipes/  
+ - title: "联系我"
+   excerpt: "给我打电话谢谢"
+   url: /about/  
  

@@ -1,0 +1,12 @@
+---
+layout: splash
+title:  "关于flex的属性记录"
+categories: posts rwd
+author: treeice
+Tags: web 
+---
+!["笔记"](/image/web_flex.jpg)
+
+
+
+
