@@ -1,7 +1,7 @@
 ---
 permalink: /about/
 title: "有关我的jekyll模板"
-excerpt: "Minimal Mistakes 是一个灵活 Jekyll 主题."
+excerpt: "Minimal Mistakes 是一个灵活 two-column Jekyll 主题."
 layouts_gallery:
   - url: /assets/images/unsplash-gallery-image-1.jpg
     image_path: assets/images/bg_seatree_19201439_1.jpg
@@ -22,7 +22,7 @@ Minimal Mistakes 是一个灵活 two-column Jekyll 主题. 适合在GitHub上托
 
 [Install the Theme]({{ "/docs/quick-start-guide/" | absolute_url }}){: .btn .btn--success .btn--large}
 
-##显著特性
+## 显著特性
 
 -捆绑为“主题宝石”，以方便安装/升级。
 -兼容GitHub页面。
@@ -35,7 +35,7 @@ Minimal Mistakes 是一个灵活 two-column Jekyll 主题. 适合在GitHub上托
 ——(Google Analytics)(https://www.google.com/analytics/)的支持。
 - UI本地化文本(默认)、巴西葡萄牙语(葡萄牙语)、汉语、丹麦语、荷兰语、法语(法语)、德语(德语)、希腊语、印度尼西亚语、意大利语(意大利语)、韩语、尼泊尔语(尼泊尔语)、波兰语、俄语、西班牙语(西班牙语)、瑞典语、土耳其语(Turkce)和越南语。
 
-##演示页面
+## 演示页面
 
 | 名称                                        | 描述                                           |
 | ------------------------------------------- | ----------------------------------------------------- |
@@ -53,13 +53,13 @@ Minimal Mistakes 是一个灵活 two-column Jekyll 主题. 适合在GitHub上托
 
 ## Credits
 
-### Icons + 备忘图片:
+### 图标 + 备忘图片:
 
 - [The Noun Project](https://thenounproject.com) -- Garrett Knoll, Arthur Shlain,和 [tracy tam](https://thenounproject.com/tracytam)
 - [Font Awesome](http://fontawesome.io/)
 - [Unsplash](https://unsplash.com/)
 
-### Other:
+### 其他人:
 
 - [Jekyll](https://jekyllrb.com/)
 - [jQuery](https://jquery.com/)
