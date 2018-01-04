@@ -2,11 +2,8 @@
 layout: single
 title:  "jekyll-cannot load such file -- bundle/bundler/setup (LoadError)"
 categories: posts jekyll 
+excerpt: "ekyll-cannot load such file -- bundle/bundler/setup (LoadError)"
 author: treeice
-Tags: jekyll 
-comments: true
-image:
-  feature: pokemen.jpg
 ---
 # power shell运行jekyll serve出现问题后解决：
 

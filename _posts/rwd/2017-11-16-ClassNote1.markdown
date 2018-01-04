@@ -1,12 +1,12 @@
 ---
 layout: archive
 title:  "11月16的课堂笔记"
+excerpt: "11月16号网页设计课堂笔记,真巧记了系列"
 categories: posts rwd
 author: treeice
-Tags: web
 ---
 
-#  7.1
+#  wsg4课本的第7章节
 
 ### 用户可能出现在任何页面
 

@@ -1,7 +1,7 @@
 ---
 layout: splash
 header:
-  overlay_image: /assets/images/bg_tree_19201280.jpg
+  overlay_image: /assets/images/bg_tree_1_half.jpg
   overlay_filter: rgba(64,224,208, 0.5)
   image_description: "Waldeinsamkeit 置身森林深处,与自然水乳交融的孤独"
   cta_label: "More Info"

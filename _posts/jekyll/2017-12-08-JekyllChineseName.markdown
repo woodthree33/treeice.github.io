@@ -1,9 +1,9 @@
 ---
 layout: default
-title:  "Jekyll-读取不了中文文档!"
+title:  "Jekyll-读取不了中文名称的博客文章!"
+excerpt:  "Jekyll模板读取不了中文名称的博客文章!"
 author: treeice
 categories: posts jekyll
-Tags: jekyll 
 ---
 ### 问题:
 > jekyll在本地预览自己写的博客无法正常打开，而提交到github上却可以正常解析。比对文件写的博客是一样的

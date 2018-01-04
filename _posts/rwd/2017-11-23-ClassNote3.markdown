@@ -1,6 +1,7 @@
 ---
 layout: splash
 title:  "11月23号网页设计课堂笔记"
+excerpt: "11月23号网页设计课堂笔记,真巧记了系列"
 categories: posts rwd
 author: treeice
 ---

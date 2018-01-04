@@ -1,7 +1,7 @@
 ---
 layout: splash
 header:
-  overlay_image: /assets/images/bg_tree_19201280.jpg
+  overlay_image: /assets/images/bg_tree_1_half.jpg
   overlay_filter: rgba(64,224,208, 0.5)
   image_description: "Waldeinsamkeit 置身森林深处,与自然水乳交融的孤独"
   cta_label: "More Info"
@@ -10,25 +10,31 @@ title:  "Jekyll-的基础信息修改和博文格式"
 excerpt: "在skiny-bones的模板为例子的基础信息修改和文章结构规格"
 author: treeice
 categories: posts jekyll
-sidebar:
-  nav: "docs"
 ---
 # 首先做这个，最重要的一步，用notepad++打开_config.yml文件
+
 	- 在文件里面把个人信息修改掉。
+	
 ## 一。你现在看到的就是放文章的博文
+
  - 你现在看到的就是我写的博文，存放在_post文件夹里面
  - 支持[markdown格式](https://www.jianshu.com/p/q81RER)
  - 文件后缀就是markdown的缩写md结尾。
+ 
 #### 1.有道云
+
  - 可以看到markdown格式的效果，
  - 所以先写在有道云
  - 如果效果正确，就再copy过来
+ 
 #### 2.博文的文件名字格式是固定的格式：
+
 ```
 年-月-日-文件名.md
 ```
 
 ## 二。可视化的博文和网页设计的博文有区别
+
  1. 在_post文件夹里面找到我写的这个【2017-11-30-一些建议.md】
  2. 用notepad+ 打开
  3. 这个文件的最开始有几行被三个---围起来的代码
@@ -59,7 +65,9 @@ Web  分类(categories)|p osts rwd
 	categories: posts  infovis
 
 ----
+
 # 三。作品放在
+
 - 这个模板的目录已经改好为两个个人作品集
 - 具体的文件是在_data文件的navigation.yml
 - infovis 文件夹放信息可视化作品集，放在index.md
