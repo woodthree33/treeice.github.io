@@ -2,7 +2,7 @@
 main:
  - title: "文章"
    excerpt: "个人博客"
-   url: /year-archive/ 
+   url: /#post/ 
   
  - title: "可视化作品集"
    excerpt: "收集的信息可视化作品集"
