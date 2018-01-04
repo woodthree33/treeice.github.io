@@ -25,7 +25,7 @@
     margin: 0 auto;
     background: #fff !important;
     color: #000 !important;
-    font-size: 6px;
+    font-size: 12pt;
     line-height: 1.5;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
@@ -45,34 +45,32 @@
   }
 
   h1 {
-    font-size: 6px;
+    font-size: 9pt;
   }
 
   h2 {
-    font-size: 5px;
+    font-size: 8pt;
   }
 
   h3 {
-    font-size: 4px;
+    font-size: 7pt;
   }
 
   h4 {
-    font-size: 3px;
+    font-size: 6pt;
   }
 
   h5 {
-    font-size: 2px;
+    font-size: 5pt;
   }
 
   h6 {
-    font-size: 1x;
+    font-size: 4pt;
   }
 
   a,
   a:visited {
-    color: #000;
-    text-decoration: underline;
-    word-wrap: break-word;
+    display:none;
   }
 
   table {
@@ -97,7 +95,7 @@
   img {
     border: 0;
     display: block;
-    max-width: 100% !important;
+    max-width: 25% !important;
     vertical-align: middle;
   }
 
@@ -177,8 +175,7 @@
   a[href^='http://']:after,
   a[href^='https://']:after,
   a[href^='ftp://']:after {
-    content: " (" attr(href) ")";
-    font-size: 80%;
+    display:none;
   }
 
   abbr[title]:after,
@@ -194,6 +191,9 @@
     margin: 0;
     padding: 0;
     width: 100%;
+  }
+  .page_meta{
+    display:none;
   }
 
   .page-break,
