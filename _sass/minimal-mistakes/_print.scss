@@ -18,20 +18,29 @@
     margin: 0;
     padding: 0;
     min-height: auto !important;
-    font-size: 6px;
+    font-size: 16px;
   }
 
   body {
     margin: 0 auto;
     background: #fff !important;
     color: #000 !important;
-    font-size: 12pt;
+    font-size: 1rem !important;
     line-height: 1.5;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
+		
   }
-
+	
+  #main > div.sidebar.sticky {
+	display: none;
+  }
+  
+  #main > div.archive {
+	column-count: 2;
+	}
+	
   h1,
   h2,
   h3,
@@ -42,35 +51,15 @@
     line-height: 1.2;
     margin-bottom: 0.75rem;
     margin-top: 0;
+	font-size: 1rem !important;
   }
 
-  h1 {
-    font-size: 9pt;
-  }
-
-  h2 {
-    font-size: 8pt;
-  }
-
-  h3 {
-    font-size: 7pt;
-  }
-
-  h4 {
-    font-size: 6pt;
-  }
-
-  h5 {
-    font-size: 5pt;
-  }
-
-  h6 {
-    font-size: 4pt;
-  }
-
+  
   a,
   a:visited {
-    display:none;
+    color: #000;
+    text-decoration: underline;
+    word-wrap: break-word;
   }
 
   table {
@@ -95,7 +84,7 @@
   img {
     border: 0;
     display: block;
-    max-width: 25% !important;
+    max-width: 20% !important;
     vertical-align: middle;
   }
 
@@ -162,11 +151,13 @@
   }
 
   img {
-    page-break-after: auto;
+    /*page-break-after: auto;
     page-break-before: auto;
-    page-break-inside: avoid;
+    page-break-inside: avoid;*/
+	width: 10%
   }
-
+	
+	
   pre {
     white-space: pre-wrap !important;
     word-wrap: break-word;
@@ -175,12 +166,13 @@
   a[href^='http://']:after,
   a[href^='https://']:after,
   a[href^='ftp://']:after {
-    display:none;
+    /*content: " (" attr(href) ")";*/
+    font-size: 10%;
   }
 
   abbr[title]:after,
   acronym[title]:after {
-    content: " (" attr(title) ")";
+    content: " (" attr(title) ")"
   }
 
   #main {
@@ -191,9 +183,6 @@
     margin: 0;
     padding: 0;
     width: 100%;
-  }
-  .page_meta{
-    display:none;
   }
 
   .page-break,
