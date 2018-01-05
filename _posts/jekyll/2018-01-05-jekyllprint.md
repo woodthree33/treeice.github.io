@@ -101,8 +101,9 @@ main.css:4
 ### 第二步
 
 #### 在你的网页文件夹_sass/_layout.scss中补上print打印的具体css样式内容
+
 - 代码如下 ctrl+A复制:
-<pre>
+```
  /*
    Printer Setup
    ======================================================================= */
@@ -152,7 +153,8 @@ main.css:4
 	    font-size: 0.75rem !important;		
 	}
 }
-</pre>
+```
+
 ### css的设计的原由:
 
  - 只保留一定数量的网页文章和文章照片(如果你有)
@@ -170,6 +172,7 @@ main.css:4
        width: 210mm;
        height: 297mm;
 ```
+
 #### 接着,查看网页的导航,按钮的元素哪里
 
  - 打开自己的网页,按f12,进去开发者工具,
@@ -181,25 +184,31 @@ main.css:4
  - -  html [type=button] 
  - -  .menu-screen
  - - - 做法:不显示
+ 
 ```
 #masthead, nav, button, html [type=button], .menu-screen {
         display: none;
     }
 ```
+
 #### 页面中的主要内容在这个元素之中,包括文章
 
  - - #page-wrapper 
  - - - 做法:单独设置格式,
  - - - - [加框](http://www.w3school.com.cn/cssref/pr_border.asp),[盒阴影](http://www.w3school.com.cn/cssref/pr_box-shadow.asp),[行分页的分页行为](http://www.w3school.com.cn/cssref/pr_print_page-break-after.asp)
+
 ```
 border: initial
 box-shadow: initial;
 page-break-after: always;
 ```
+
 #### 页面中的文字,按照标等级,文章题目和描述等情况,划分不同的字体大小
+
  - - p , h1 , h2~h6 这几个元素划分
  - - - 做法:每个都单独设置字体大小,期中
  - - - !important 的语法是提高css样式表的应用优先等级,保证设置的字体被应用
+ 
 ```
 font-size: 1rem !important;	
 ```
@@ -221,10 +230,13 @@ font-size: 1rem !important;
  > When you run bundle exec jekyll serve, Bundler uses the gems and versions as specified in Gemfile.lock to ensure your Jekyll site builds with no compatibility or dependency conflicts.
 
 #### 用notepad++打开 Gemfile文件中补上:
+
  > 在本地运行时候,可能需要安装补上这个gem
+
 ```
 gem 'github-pages'
 ```
+
 #### 在 Gemfile.lock文件中补上
 
  - 以下可以直接ctrl+A:
