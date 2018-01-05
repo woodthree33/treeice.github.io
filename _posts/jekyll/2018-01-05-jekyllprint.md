@@ -44,12 +44,13 @@ categories: posts jekyll
 
 #### 具体修改的代码:
 
-<pre>
+```
     @media  print, screen and ($default-feature: nth($query, 1)) {
 
     $mediaQuery: 'print , screen and ';
     
-</pre>
+```
+
 ---
 ---
 
@@ -103,7 +104,9 @@ main.css:4
 #### 在你的网页文件夹_sass/_layout.scss中补上print打印的具体css样式内容
 
 - 代码如下 ctrl+A复制:
+
 ```
+
  /*
    Printer Setup
    ======================================================================= */
@@ -142,17 +145,20 @@ main.css:4
 		height: 256mm;
 		outline: 2cm #cbecff solid;
 	}
-
+	
     p {
 	    font-size: 0.625rem !important;		
 	}
+	
 	h1 {
 	    font-size: 1rem !important;		
 	}
+	
 	h2, h3, h4, h5, h6 {
 	    font-size: 0.75rem !important;		
 	}
 }
+
 ```
 
 ### css的设计的原由:
