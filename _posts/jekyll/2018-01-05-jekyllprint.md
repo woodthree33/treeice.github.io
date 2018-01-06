@@ -36,13 +36,20 @@ categories: posts jekyll
 
 ## 具体 
 
+## 总的修改文件以下：
+
+ -  _sass/_layout.scss
+ - _sass/vendor/neat/grid/_media.scss
+ - Gemfile 
+ - Gemfile.lock
+
 ### 第一步
   
-####  在你的网页文件夹_sass/vendor/neat/grid/_media.scss当中补上print
+####  [要改]在你的网页文件夹_sass/vendor/neat/grid/_media.scss当中**补上**print
 
  - - - ![老师的打印步骤](/image/post_print_01.png)
 
-#### 具体修改的代码:
+#### [要改]把print写上去的具体修改的代码,整行复制代替: 
 
 ```
     @media  print, screen and ($default-feature: nth($query, 1)) {
@@ -54,7 +61,7 @@ categories: posts jekyll
 ---
 ---
 
-#### 以下是老师的这一步修改的笔记和想法,我看不大懂,如果你看懂了,和我分享一下谢谢:
+#### [不用改]以下是老师的这一步修改的笔记和想法,我看不大懂,如果你看懂了,和我分享一下谢谢:
 
 ```
 @media screen and (min-width: 30em)
@@ -73,7 +80,7 @@ main.css:4
 }
 ```
 
-##### 想法
+##### [不用改]想法
 
 - 讓 @media print 同某一screen 
 - in 96dpi: A4 (21 × 29.7 cm), you should use 794 × 1122 pixels
@@ -83,13 +90,13 @@ main.css:4
 ```
 @media screen 
 ```
-##### 改成
+##### [不用改]改成
 
 ```
 @media print, screen 
 ```
 
-##### 問題
+##### [不用改]問題
 
 - 問題找到了在 tile，但_tiles.scss 中 沒有可改的地方
 - 其他人有遇到同樣的問題[Bourbon Neat media() not working for print media](https://cmsdk.com/css3/bourbon-neat-media-not-working-for-print-media.html)
@@ -101,7 +108,7 @@ main.css:4
 
 ### 第二步
 
-#### 在你的网页文件夹_sass/_layout.scss中补上print打印的具体css样式内容
+#### [要改]在你的网页文件夹_sass/_layout.scss中补上print打印的具体css样式内容
 
 - 代码如下 ctrl+A复制:
 
@@ -225,7 +232,7 @@ font-size: 1rem !important;
 
 ### 第三步
 
-#### 修改Gemfile 和 Gemfile.lock 两个文件
+#### [要改]修改Gemfile 和 Gemfile.lock 两个文件
  
  > [关于gemfile的官方解释文档](https://jekyllrb.com/docs/quickstart/#about-bundler)
 
@@ -235,7 +242,7 @@ font-size: 1rem !important;
 
  > When you run bundle exec jekyll serve, Bundler uses the gems and versions as specified in Gemfile.lock to ensure your Jekyll site builds with no compatibility or dependency conflicts.
 
-#### 用notepad++打开 Gemfile文件中补上:
+#### [要改]用notepad++打开 Gemfile文件中补上:
 
  > 在本地运行时候,可能需要安装补上这个gem
 
@@ -243,7 +250,7 @@ font-size: 1rem !important;
 gem 'github-pages'
 ```
 
-#### 在 Gemfile.lock文件中补上
+#### [要改]在 Gemfile.lock文件中补上
 
  - 以下可以直接ctrl+A:
  
@@ -497,4 +504,7 @@ DEPENDENCIES
 BUNDLED WITH
    1.16.0
 ```
+
+
+  
 # 以上就是老师的修改,大家回去试一试,有问题,马上和我说一下.谢谢
