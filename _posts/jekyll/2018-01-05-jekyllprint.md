@@ -36,7 +36,7 @@ categories: posts jekyll
 
 ## 具体 
 
-## 总的修改文件以下：
+## 总的修改文件以下四个：
 
  -  _sass/_layout.scss
  - _sass/vendor/neat/grid/_media.scss
