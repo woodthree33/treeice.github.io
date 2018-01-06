@@ -31,7 +31,8 @@ categories: posts jekyll
  - 截图来源[老师的网站](https://hanteng.github.io)和[某位同学](https://jamieyin.github.io)的网站
  - 1.**网页的文章页面**(类似)
  - - - ![打印的网页的文章页面](/image/post_print_04.png)
- - 2.**网页设计作品集页** 和 **可视化作品集页面**(类似)
+ - 2.**网页设计作品集页** 
+ - 3.**可视化作品集页面**(类似)
  - - - ![打印的网页的可视化作品页面](/image/post_print_00.png)
 
 ## 具体 
