@@ -2,6 +2,8 @@
 layout: splash
 title:  "关于flex的属性记录"
 excerpt: "html中的flex元素的属性记录"
+header:
+  teaser: /image/post-rwd-02.jpg
 categories: posts rwd
 author: treeice
 ---

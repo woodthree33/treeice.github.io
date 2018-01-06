@@ -2,6 +2,8 @@
 layout: splash
 title:  "11月30号网页设计课堂笔记"
 excerpt: "11月30号网页设计课堂笔记,真巧记了系列"
+header:
+  teaser: /image/post-rwd-05.jpg
 categories: posts rwd
 author: treeice
 ---

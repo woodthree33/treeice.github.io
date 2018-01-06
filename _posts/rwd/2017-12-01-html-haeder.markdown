@@ -2,6 +2,8 @@
 layout: splash
 title:  "[未完]网页设计关于 header 的内容"
 excerpt: "html对header的写法记录"
+header:
+  teaser: /image/post-rwd-03.jpg
 categories: posts rwd
 author: treeice
 ---

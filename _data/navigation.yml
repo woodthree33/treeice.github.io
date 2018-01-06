@@ -1,9 +1,13 @@
 # main links
 main:
- - title: "文章"
-   excerpt: "个人博客"
-   url: /#post/ 
-  
+ - title: "网页设计文章"
+   excerpt: "网页设计博客"
+   url: /posts/rwd/
+
+ - title: "信息可视化文章"
+   excerpt: "信息可视化文章"
+   url: /posts/infovis/
+   
  - title: "可视化作品集"
    excerpt: "收集的信息可视化作品集"
    url: /infovis/

@@ -37,9 +37,7 @@
 	display: none;
   }
   
-  #main > div.archive {
-	column-count: 2;
-	}
+  
 	
   h1,
   h2,
@@ -87,7 +85,11 @@
     max-width: 20% !important;
     vertical-align: middle;
   }
-
+  
+  .tableauPlaceholder{
+  width:100%
+  }
+  
   hr {
     border: 0;
     border-bottom: 2px solid #bbb;

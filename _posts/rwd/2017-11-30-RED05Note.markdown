@@ -3,6 +3,8 @@ layout: splash
 title:  "RWD第五章的总结笔记"
 excerpt: "RWD第五章的总结笔记"
 categories: posts rwd
+header:
+  teaser: /image/post-rwd-04.jpg
 author: treeice 
 ---
 # css3新特新

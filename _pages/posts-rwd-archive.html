@@ -1,0 +1,13 @@
+---
+layout: archive
+title: "网页设计文章"
+permalink: /posts/rwd/
+author_profile: false
+---
+
+
+<div class="grid__wrapper">
+{% for post in site.categories.rwd %}
+  {% include archive-single.html type="grid" %}
+{% endfor %}
+</div>
