@@ -13,21 +13,11 @@ sidebar:
     text: "等我哪一年有空在写教程吧"
 ---
 
-<body>
+
 	
 
 <style type="text/css">
 
-  /*设置背景为SlateGray灰色,字体颜色为Beige米黄色,字体为引用字体AlegreSansregular, 间距和 行高,缓冲的光标*/
-.outer {
-    background: #708090;
-    color:  #F5F5DC;
-    font-family: "AlegreSansregular";
-    font-size: 25px;
-    letter-spacing:2px;
-    line-height: 150%;
-    cursor: wait;
-}
 
 /*引入新的字体 */
 @font-face {
@@ -39,13 +29,15 @@ sidebar:
 
   /*利用transform来实现居中 */
 .three-link-words {
-
-	 position: absolute;
-	 min-width: 450px;
+     background: #708090 !important;
+	 font-family: "AlegreSansregular";
+     font-size: 25px;
+     letter-spacing:2px;
+     line-height: 150%;
+     cursor: wait;
+     color:  #F5F5DC;
+	 min-width: 320px;
 	 text-align: center;
-     width: 50%; 
-     top: 50%;
-     left: 50%;
      transform: translate(-50%, -50%);
 }
 
@@ -54,18 +46,6 @@ sidebar:
     display: block;
 }
 
- /*设置手机的屏幕媒体情况 iphone宽度320*/
-@media screen and (max-width: 320px) {
-    .three-link-words {
-        font-size: 5vw;
-        min-width: auto;
-        width: 95%;
-        margin: auto;
-        padding: 5px;
-        padding-left: 10px;
-        line-height: 10vw;
-    }
-}
 /*
  超链接属性对文本进行修饰。为默认不现实 */
 a {
@@ -96,7 +76,7 @@ a {
 
 </style> 
 
-<div class="outers">
+
 <div class="three-link-words">
   <p>春晓</p>
   <p><span class="anima" style="color:#EE82EE">春</span>眠不觉晓</p>
@@ -105,4 +85,4 @@ a {
   <p><span class="anima" style="color:#FF0000">花</span>落知多少</p>
    
 </div>
-</div>
+
