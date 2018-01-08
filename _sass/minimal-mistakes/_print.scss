@@ -43,7 +43,18 @@
     margin-bottom: 0.75rem;
     margin-top: 0;
 	}
-
+	
+	#viz1515347987274{
+	 margin:5mm 0mm 5mm;
+	 }
+	
+	#main > div > div.grid__wrapper{
+	display:flex;
+	}
+	
+	.grid__item {
+	 display:flex;
+	 }
 
   h1 {
     font-size: 1rem;
