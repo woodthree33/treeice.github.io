@@ -4,7 +4,7 @@
 
 @media print {
 
-  [hidden] {
+  [hidden] , .breadcrumbs {
     display: none;
   }
 
@@ -44,17 +44,36 @@
     margin-top: 0;
 	}
 	
-	#viz1515347987274{
-	 margin:5mm 0mm 5mm;
-	 }
+	div#main {
+    border: 10px #3CB371 solid;
+}
 	
-	#main > div > div.grid__wrapper{
-	display:flex;
-	}
-	
-	.grid__item {
-	 display:flex;
-	 }
+	h1.page__title {
+    text-align: center;
+    font-size: 1.8rem;
+    margin: 15px;
+}
+
+   .page__meta{
+   display:none;
+   }
+
+	#main > div > div > div:nth-child(1) {
+    margin: 5% 0 0 7%;
+}
+
+	#main > div > div > div:nth-child(2) {
+    margin: 5% 0 0 7%;
+}
+
+    #main > div > div > div:nth-child(3) {
+    margin: 5% 0 0 7%;
+}
+
+    #main>div>div>div:nth-child(4) {
+    margin: 7% 0 7% 37.5%;
+    text-align: center;
+}
 
   h1 {
     font-size: 1rem;
@@ -186,12 +205,7 @@
     word-wrap: break-word;
   }
 
-  a[href^='http://']:after,
-  a[href^='https://']:after,
-  a[href^='ftp://']:after {
-    content: " (" attr(href) ")";
-    font-size: 80%;
-  }
+  
 
   abbr[title]:after,
   acronym[title]:after {
@@ -243,8 +257,9 @@
 /*
    Hide the following elements on print
    ========================================================================== */
-
+   
   .masthead,
+  .nav.breadcrumbs,
   .toc,
   .page__share,
   .page__related,

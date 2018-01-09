@@ -1,9 +1,9 @@
 ---
-title: "文传院logo的变大变小动画"
-excerpt: "改进文传院WCY LOGO并加过渡及动画的缩放特效."
+title: "文传院logo的左移右移动画"
+excerpt: "改进文传院WCY LOGO并加过渡及动画的移动特效."
 header:
   image: /assets/images/bg_tree_1_half.jpg
-  teaser: /assets/images/bg_forest_1.jpg
+  teaser: /image/portfolio-svg-anima03.png
 sidebar:
   - title: "木三"
     image: /assets/images/logo_image.png
@@ -37,10 +37,10 @@ sidebar:
 }
 @keyframes clockwise {
 	0% {
-		transform: scale(0.1) rotate(0deg);
+		transform: translateX(-110%) rotate(0deg);
 	}
 	100% {
-		transform: scale(1) rotate(360deg);
+		transform: translateX(0) rotate(360deg);
 	}
 }
 
@@ -50,10 +50,10 @@ sidebar:
 }
 @keyframes anticlockwise {
 	0% {
-		transform: scale(3) rotate(0deg) ;
+		transform: translateX(100%) rotate(0deg);
 	}
 	100% {
-		transform: scale(1) rotate(-360deg);
+		transform: translateX(0) rotate(-360deg);
 	}
 }
 .flower{
@@ -61,20 +61,24 @@ sidebar:
 	transform-origin: 50% 50%;
 }
 @keyframes swing{ 
-    0% { transform: rotate(0); }
-	5% { transform: rotate(10deg); }
-	10% { transform: rotate(-9deg); }
-	15% { transform: rotate(8deg); }
-	20% { transform: rotate(-7deg); }
-	25% { transform: rotate(6deg); }
-	30% { transform: rotate(-5deg); }
-	35% { transform: rotate(4deg); }
-	40% { transform: rotate(-3deg); }
-	45% { transform: rotate(2deg); }
-	50% { transform: rotate(-1deg); } 
-	55% { transform: rotate(0.5deg); } 
-	60% { transform: rotate(-1deg); } 
-	100% { transform: rotate(0); }
+    0%   { opacity:0    ;transform: rotate(0deg)    ;}
+	10%  { opacity:0    ;transform: rotate(10deg)  ;}
+	15%  { opacity:0    ;transform: rotate(-9deg)   ;}
+	25%  { opacity:0    ;transform: rotate(8deg )   ;}
+	30%  { opacity:0    ;transform: rotate(-7deg)   ;}
+	35%  { opacity:0.1  ;transform: rotate(10deg)  ;}
+	40%  { opacity:0.2  ;transform: rotate(-9deg)   ;}
+	45%  { opacity:0.25 ;transform: rotate(8deg )   ;}
+	50%  { opacity:0.30 ;transform: rotate(-7deg)   ;}
+	55%  { opacity:0.35 ;transform: rotate(6deg )   ;}
+	60%  { opacity:0.4  ;transform: rotate(-5deg)   ;}
+	65%  { opacity:0.5  ;transform: rotate(4deg )   ;}
+	70%  { opacity:0.6  ;transform: rotate(-3deg)   ;}
+	75%  { opacity:0.75 ;transform: rotate(2deg)    ;}
+	80%  { opacity:0.85 ;transform: rotate(-1deg)   ;}
+	85%  { opacity:0.9  ;transform: rotate(0.5deg)  ;}
+	90%  { opacity:0.95 ;transform: rotate(-1deg)   ;}
+	100% { opacity:1    ;transform: rotate(0deg)    ;}
 }
  .clock {
 	animation:swing 10s  ease-in-out;
@@ -84,4 +88,4 @@ sidebar:
 </div>
 
 
-让文学与传媒学院中英文从中心由小变大,让最外围的花纹从中心由大变小.加入旋转和摇摆,logo中间的钟围绕中心摆动.知识点:在<响应式Web设计+HTML5和CSS3实战>书中8.2章节对旋转,平移的使用
+让文学与传媒学院中英文从左边沿着x轴旋转平移过来中心,让最外围的花纹从右边沿着x轴旋转平移过来中心.加入旋转和摇摆,logo中间的钟围绕中心渐变摆动.知识点:在<响应式Web设计+HTML5和CSS3实战>书中8.2章节对旋转,平移的使用

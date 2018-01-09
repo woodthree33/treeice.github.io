@@ -1,9 +1,9 @@
 ---
-title: "文传院logo的顺逆时针动画"
-excerpt: "改进文传院WCY LOGO并加过渡及动画的旋转特效."
+title: "文传院logo的变大变小动画"
+excerpt: "改进文传院WCY LOGO并加过渡及动画的缩放特效."
 header:
   image: /assets/images/bg_tree_1_half.jpg
-  teaser: /assets/images/bg_forest_2.jpg
+  teaser: /image/portfolio-svg-anima02.png
 sidebar:
   - title: "木三"
     image: /assets/images/logo_image.png
@@ -37,22 +37,23 @@ sidebar:
 }
 @keyframes clockwise {
 	0% {
-		transform: rotate(0deg);
+		transform: scale(0.1) rotate(0deg);
 	}
 	100% {
-		transform: rotate(360deg);
+		transform: scale(1) rotate(360deg);
 	}
 }
+
 .wcy {
 	animation: clockwise 10s ;
 	transform-origin: 50% 50%;
 }
 @keyframes anticlockwise {
 	0% {
-		transform: rotate(0deg);
+		transform: scale(3) rotate(0deg) ;
 	}
 	100% {
-		transform: rotate(-360deg);
+		transform: scale(1) rotate(-360deg);
 	}
 }
 .flower{
@@ -70,14 +71,17 @@ sidebar:
 	35% { transform: rotate(4deg); }
 	40% { transform: rotate(-3deg); }
 	45% { transform: rotate(2deg); }
-	50% { transform: rotate(0); } 
+	50% { transform: rotate(-1deg); } 
+	55% { transform: rotate(0.5deg); } 
+	60% { transform: rotate(-1deg); } 
 	100% { transform: rotate(0); }
 }
  .clock {
-	animation:swing 10s ease-in-out 0s infinite;
+	animation:swing 10s  ease-in-out;
 	transform-origin: 50% 50%;
 }
 		</style>
 </div>
 
-让文学与传媒学院中英文从中心顺时针旋转,让最外围的花纹从中心逆时针旋转.加入旋转和摇摆,logo中间的钟围绕中心摆动.知识点:在<响应式Web设计+HTML5和CSS3实战>书中8.2章节对旋转,平移的使用
+
+让文学与传媒学院中英文从中心由小变大,让最外围的花纹从中心由大变小.加入旋转和摇摆,logo中间的钟围绕中心摆动.知识点:在<响应式Web设计+HTML5和CSS3实战>书中8.2章节对旋转,平移的使用
