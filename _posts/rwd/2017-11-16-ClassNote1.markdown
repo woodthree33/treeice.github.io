@@ -7,6 +7,7 @@ header:
   teaser: /image/post-rwd-07.jpg
 author: treeice
 ---
+<script src='https://unpkg.com/mermaid@7.1.2/dist/mermaid.min.js'></script>
 
 #  wsg4课本的第7章节
 
@@ -27,13 +28,14 @@ author: treeice
 
 #### 1.界面-->程序
 
-```
+
+<div class="mermaid">
 graph LR 
 
 A[用户] -->|触发,执行指令|B(网站)
 B(网站) -->|发出指令|C(网站服务器)
 
-```
+</div>
 ---
 ### 2.特点
 

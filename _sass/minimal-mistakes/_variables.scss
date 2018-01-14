@@ -43,6 +43,45 @@ $type-size-7                  : 0.6875em !default; // ~11px
 $type-size-8                  : 0.625em !default;  // ~10px
 
 
+/*引入新字体
+   ========================================================================== */
+   
+@font-face {
+    font-family: 'AlegreSansregular';
+    src: url('/assets/fonts/AlegreSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GoodVibes';
+    src: url('/assets/fonts/Good Vibes - Demo.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ASans';
+    src: url('/assets/fonts/ASans.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ASansBOLD';
+    src: url('/assets/fonts/ASansBOLD.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ASansBlack';
+    src: url('/assets/fonts/ASansBlack.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ASansreg';
+    src: url('/assets/fonts/ASansreg.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 /*
    Colors
    ========================================================================== */

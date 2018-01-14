@@ -320,7 +320,7 @@ zh: &DEFAULT_ZH
   pagination_next            : "下一页"
   breadcrumb_home_label      : "首页"
   breadcrumb_separator       : ">"
-  menu_label                 : "切换菜单"
+  menu_label                 : "显示菜单"
   toc_label                  : "在本页上"
   ext_link_label             : "直接链接"
   less_than                  : "一分钟325字的阅读速度下,你可以在少于"

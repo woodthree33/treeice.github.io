@@ -14,6 +14,12 @@ categories: posts jekyll
 
 # 在网页打开时候，浏览器出现你的logo
 
+{% highlight ruby linenos %}
+def foo
+  puts 'foo'
+end
+{% endhighlight %}
+
 ### 老师的网页的中出现的是![Keble College Icon](https://raw.githubusercontent.com/hanteng/hanteng.github.io/cf9691a940e8d9527d64553501a90991e9c5f1ab/apple-touch-icon.png)
 
 #### 我们需要给自己的网页定制一个logo 
