@@ -3,7 +3,7 @@ layout: splash
 title:  "关于flex的属性记录"
 excerpt: "html中的flex元素的属性记录"
 header:
-  teaser: /image/img-post-rwd-flex.png
+  teaser: /images/img-post-rwd-flex.png
 categories: posts rwd
 author: treeice
 ---

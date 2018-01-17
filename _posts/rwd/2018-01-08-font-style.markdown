@@ -3,7 +3,7 @@ layout: splash
 title:  "关于font字体的属性记录"
 excerpt: "CSS 中font-style元素的属性记录"
 header:
-  teaser: /image/img-post-rwd-fontstyle.png
+  teaser: /images/img-post-rwd-fontstyle.png
 categories: posts rwd
 author: treeice
 ---

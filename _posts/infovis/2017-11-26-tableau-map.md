@@ -1,7 +1,7 @@
 ---
 layout: splash
 header:
-  teaser: /image/post-infovis-02.jpg
+  teaser: /images/post-infovis-02.jpg
   overlay_image: /assets/images/bg_tree_1.jpg
   overlay_filter: rgba(64,224,208, 0.5)
   image_description: "Waldeinsamkeit 置身森林深处,与自然水乳交融的孤独"

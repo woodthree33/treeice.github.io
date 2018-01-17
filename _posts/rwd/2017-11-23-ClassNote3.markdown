@@ -4,7 +4,7 @@ title:  "11月23号网页设计课堂笔记"
 excerpt: "11月23号网页设计课堂笔记,真巧记了系列"
 categories: posts rwd
 header:
-  teaser: /image/img-post-rwd-classnote1123.png
+  teaser: /images/img-post-rwd-classnote1123.png
 author: treeice
 ---
 ## 颜色

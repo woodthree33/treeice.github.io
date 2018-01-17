@@ -3,7 +3,7 @@ layout: splash
 title:  "WSG4的第十二章节翻译"
 excerpt: "i小组的关于视频拍摄的英文课文翻译"
 header:
-  teaser: /image/img-post-rwd-teamtranslation.png
+  teaser: /images/img-post-rwd-teamtranslation.png
 categories: posts rwd
 author: treeice
 ---

@@ -18,5 +18,115 @@ main:
     
  - title: "联系我"
    excerpt: "给我打电话谢谢"
-   url: /about/  
- 
+   url: /about/
+
+
+wordpress:
+ - title: "网站与WordPress"
+   children:
+     - title: "拥有公司网站以及经营网站的重要性"
+       url: /posts/weboperation/
+     - title: "建立每天更新网站的机制"
+       url: /posts/weboperation/
+     - title: "WordPress 到底是什么"
+       url: /posts/weboperation/
+     - title: "WordPress的基本功能"
+       url: /posts/weboperation/
+     - title: "网页制作分成[企划,设计,制作,运用]四个面向"
+       url: /posts/weboperation/
+
+ - title: "[企划]商务网站有九层有企划决定"
+   children:
+     - title: "构思网站的目的"
+       url: /posts/weboperation/
+     - title: "考虑强项与弱项"
+       url: /posts/weboperation/
+     - title: "创造网站的特征"
+       url: /posts/weboperation/
+     - title: "找出目标使用者"
+       url: /posts/weboperation/
+     - title: "企划内容"
+       url: /posts/weboperation/
+     - title: "拟订设计概念"
+       url: /posts/weboperation/
+
+ - title: "[设计]吸引使用者浏览的网站设计"
+   children:
+     - title: "全域导览列的设计"
+       url: /posts/weboperation/
+     - title: "制作网站地图"
+       url: /posts/weboperation/
+     - title: "让制作完成的网站地图成为WordPreaa的蓝图"
+       url: /posts/weboperation/
+     - title: "支援智慧型手机"
+       url: /posts/weboperation/
+     - title: "[介面][动态,呈现方式]的设计与素材的准备"
+       url: /posts/weboperation/
+     - title: "伺服器与网域的签约"
+       url: /posts/weboperation/
+
+ - title: "[制作]架设WordPress网站"
+   children:
+     - title: "架设WordPress网站的基本流程"
+       url: /posts/weboperation/
+     - title: "安装Wordpress"
+       url: /posts/weboperation/
+     - title: "WordPress的基本操作与初期设定"
+       url: /posts/weboperation/
+     - title: "利用WordPress架设企业网站"
+       url: /posts/weboperation/
+     - title: "架设自订布景主题的开发环境"
+       url: /posts/weboperation/
+     - title: "了解布景主题的构架"
+       url: /posts/weboperation/
+     - title: "使用范本标签"
+       url: /posts/weboperation/
+     - title: "变更特定页面的设计"
+       url: /posts/weboperation/
+     - title: "试着自订布景主题"
+       url: /posts/weboperation/
+
+ - title: "[经营]从此时间开始实践,SEO,流量分析,宣传"
+   children:
+     - title: "发布网站之前该做的事"
+       url: /posts/weboperation/
+     - title: "正确传达价值的SEO"
+       url: /posts/weboperation/
+     - title: "WordPress的SEO对策"
+       url: /posts/weboperation/
+     - title: "导入流量分析工具"
+       url: /posts/weboperation/
+     - title: "流量分析资料的分析与网站的改善"
+       url: /posts/weboperation/
+     - title: "网站集客最佳化"
+       url: /posts/weboperation/
+
+ - title: "[附录]保存版,便利的外挂程式集"
+   children:
+     - title: "安装幻灯片播放方式的[Meta Slider]"
+       url: /posts/weboperation/
+     - title: "让图片跳出书面[Easy Fancy Box]"
+       url: /posts/weboperation/
+     - title: "提供各种便利的功能的[Jetpack by WordPress.com]"
+       url: /posts/weboperation/
+     - title: "精选!WordPress外挂程式清单"
+       url: /posts/weboperation/
+
+ - title: "自订布景主题的方法"
+   children:
+     - title: "WordPress布景主题的制作流程"
+       url: /posts/weboperation/
+     - title: "WordPress的准备和新增布景主题资料夹"
+       url: /posts/weboperation/
+     - title: "建立functions.php函数档案"
+       url: /posts/weboperation/
+     - title: "建立范本元件"
+       url: /posts/weboperation/
+     - title: "建立预设的静态页面范本"
+       url: /posts/weboperation/
+     - title: "建立文章范本"
+       url: /posts/weboperation/
+     - title: "建立文章一览表范本"
+       url: /posts/weboperation/
+     - title: "建立首页专用范本"
+       url: /posts/weboperation/
