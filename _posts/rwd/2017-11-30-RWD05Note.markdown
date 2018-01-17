@@ -4,7 +4,7 @@ title:  "RWD第五章的总结笔记"
 excerpt: "RWD第五章的总结笔记"
 categories: posts rwd
 header:
-  teaser: /image/post-rwd-04.jpg
+  teaser: /image/img-post-rwd-rwdnote05.png
 author: treeice 
 ---
 # css3新特新

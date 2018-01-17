@@ -4,7 +4,7 @@ title:  "11月16的课堂笔记"
 excerpt: "11月16号网页设计课堂笔记,真巧记了系列"
 categories: posts rwd
 header:
-  teaser: /image/post-rwd-07.jpg
+  teaser: /image/img-post-rwd-classnote1116.png
 author: treeice
 ---
 <script src='https://unpkg.com/mermaid@7.1.2/dist/mermaid.min.js'></script>
