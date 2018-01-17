@@ -3,7 +3,7 @@ layout: splash
 title:  "关于font字体"
 excerpt: "CSS 中font-family元素的记录"
 header:
-  teaser: /image/post-rwd-10.jpg
+  teaser: /image/img-post-rwd-fontfamily.png
 categories: posts rwd
 author: treeice
 ---
